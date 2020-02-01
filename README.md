@@ -17,7 +17,7 @@ Problems? Raise an issue in the issue tracker for this assignment!
 
 <p align="center">
 <b>
-Automated assessment for an assignment on Java programming and technical writing in Markdown
+Automated assessment for an assignment on C programming and technical writing in Markdown
 </b>
 </p>
 
@@ -267,7 +267,7 @@ updates, then you can type this command in the main directory for this
 assignment:
 
 ```
-git remote add download git@github.com:GatorEducator/java-assignment-solution-100-01
+git remote add download git@github.com:GatorEducator/c-assignment-solution-201-02
 ```
 
 You should only need to type this command once; running the command additional
@@ -321,10 +321,10 @@ We developed this assignment to work with the following software and versions:
 ## Reporting Problems
 
 If you have found a problem with this assignment's provided source code or
-documentation, then you can go to the [Java Assignment Solution
-100-01](https://github.com/GatorEducator/java-assignment-solution-100-01)
+documentation, then you can go to the [C Assignment Solution
+100-01](https://github.com/GatorEducator/c-assignment-solution-100-01)
 repository and [raise an
-issue](https://github.com/GatorEducator/java-assignment-solution-100-01/issues).
+issue](https://github.com/GatorEducator/c-assignment-solution-100-01/issues).
 If you have found a problem with the [GatorGrader
 tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks
 your assignment, then you can also [raise an
@@ -354,7 +354,7 @@ grading](http://rtalbert.org/return-to-specs-grading-calculus/), the grade that
 a student receives on this assignment will have the following components:
 
 - **Percentage of Correct GatorGrader Checks**: Students are encouraged to
-  repeatedly try to implement a Java program that passes all of GatorGrader's
+  repeatedly try to implement a C program that passes all of GatorGrader's
   checks by, for instance, creating a program that produces the correct output.
   Students should also repeatedly revise their technical writing to ensure that
   it also passes all of GatorGrader's checks about, for instance, the length of
