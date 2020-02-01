@@ -233,26 +233,20 @@ your submission must pass the following checks that
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically
 assesses:
 
-- The repository has at least 10 commit(s)
-- The DisplayOutput.java in src/main/java/labone has at least 2 multiple-line Java comment(s)
-- The DisplayOutput.java in src/main/java/labone has at least 2 single-line Java comment(s)
-- The DisplayOutput.java in src/main/java/labone has exactly 0 of the `Add Your Name Here` fragment
-- The DisplayOutput.java in src/main/java/labone has exactly 0 of the `TODO` fragment
-- The DisplayOutput.java in src/main/java/labone has exactly 1 match(es) of the `println\\((.)*\\)` regular expression
-- The DisplayOutput.java in src/main/java/labone has exactly 1 of the `import java.util.Date` fragment
-- The DisplayOutput.java in src/main/java/labone has exactly 1 of the `new Date()` fragment
-- The command `gradle -q --console plain run` executes correctly
-- The command `gradle build` executes correctly
-- The command output has exactly 1 match(es) of the `Hello\\s+\\w+\\.(\\n)Gradle(\\s+\\w+)*\\.(\\n)Docker(\\s+\\w+)*\\.` regular expression
-- The command output has exactly 4 lines
-- The file DisplayOutput.java exists in the src/main/java/labone directory
-- The file reflection.md exists in the writing directory
-- The reflection.md in writing has at least 300 word(s) in total
-- The reflection.md in writing has exactly 0 of the `Add Your Name Here` fragment
-- The reflection.md in writing has exactly 1 of the `code_block` tag
-- The reflection.md in writing has exactly 1 of the `list` tag
+- Confirm the file, gators.c exists
+- Confirm that the file, reflection.md exists within the writing directory
+- The gators.c has exactly 2 of the `struct` fragments
+- The gators.c has at least 3 of the `playerID` fragments
+- The gators.c has at least 3 of the `playerWeight` fragments
+- The gators.c has at least 3 of the `playerHeight` fragments
+- The gators.c has at least 3 of the `playerName` fragments
+- The reflection.md in writing has at least 300 words
 - The reflection.md in writing has exactly 3 of the `code` tag
 - The reflection.md in writing has exactly 6 of the `heading` tag
+- The reflection.md in writing has exactly 1 of the `code_block` tag
+- The repository has at least 10 commit(s)
+
+
 
 If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated
 checks pass correctly, the tool will produce the output like the following in
@@ -261,7 +255,7 @@ command `echo $?`).
 
 ```
         ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-        ┃ Passed 20/20 (100%) of checks for java-assignment-solution-100-01! ┃
+        ┃ Passed 11/12 (95%) of checks for c-assignment-solution-100-01!     ┃
         ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
