@@ -214,31 +214,16 @@ said, program output may vary according to, for instance, the name of the
 programmer and the date on which you ran the program.
 
 ```
-> Configure project :
-Configured GatorGradle 0.4.4
-
-> Task :compileJava UP-TO-DATE
-> Task :processResources NO-SOURCE
-> Task :classes UP-TO-DATE
-
-> Task :run
-Gregory M. Kapfhammer Sun Sep 08 22:29:56 GMT 2019
-Hello World.
-Gradle is Great.
-Docker is Dynamite.
-
-BUILD SUCCESSFUL in 1s
-2 actionable tasks: 1 executed, 1 up-to-date
-```
-
-Running the command `gradle -q --console plain run` will suppress the display of
-Gradle's diagnostic information and produce output like the following.
-
-```
-Gregory M. Kapfhammer Sun Sep 08 22:32:05 GMT 2019
-Hello World.
-Gradle is Great.
-Docker is Dynamite.
+1	Alex	164.000000	169.000000
+2	Bob	164.000000	150.000000
+3	Chris	144.000000	158.000000
+4	David	165.000000	184.000000
+5	Easton	107.000000	190.000000
+6	Frank	142.000000	178.000000
+7	Henry	147.000000	154.000000
+8	Peter	154.000000	187.000000
+9	Samuels	154.000000	198.000000
+10	Thomas	183.000000	196.000000
 ```
 
 ## Automated Checks with GatorGrader
